@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anta&family=Anton&family=Caveat:wght@400..700&family=Della+Respira&family=Kode+Mono:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan:ital@0;1&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Unbounded:wght@200..900&family=Varela+Round&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <div class="landing-page">
+    <header>
+
+    <nav class="nav1">
+        <ul class="sidebar">
+            <li onclick=closeSidebar() class="sid"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#review">Review</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul>
+            <li class="hideOnMobile"><img src="#" alt=""></li>
+            <li class="hideOnMobile"><a href="#">Home</a></li>
+            <li class="hideOnMobile"><a href="#">About</a></li>
+            <li class="hideOnMobile"><a href="#">Products</a></li>
+            <li class="hideOnMobile"><a href="#">Review</a></li>
+            <li class="hideOnMobile"><a href="#">Contact</a></li>
+            <li class="hideOnMobile"><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+            <li class="hideOnMobile"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="content">
+    <h1>The Art of Floral Storytelling</h1>
+    <h3>Expressing the Unspoken</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptate <br> reprehenderit error culpa excepturi beatae vel consequuntur <br> magnam incidunt enim!</p>
+    <button class="btn"><a href="#" class="link">Shop Now</a></button>
+</div>
+</div>
+
+
+<div class="scroll-content" id="about">
+
+        <h2 class="heading"><span>About</span> Us</h2>
+        
+        <div class="row">
+            <div class="video-container" id="videoContainer">
+                <video src="pics/att.Xabc_UWZ-PbawY4Z023z8wBv9Gt_nRQV0VCimjSvzpU.mov" loop autoplay muted></video>
+                <h4>Best Flower Sellers</h4>
+            </div>
+            <div class="content2">
+                <h3>Why Choose Us?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio mollitia nihil inventore accusantium accusamus sit, placeat cum veniam, est quia magnam quis fugiat, velit aut iusto error laudantium! Vitae, officia!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem necessitatibus consequuntur voluptas possimus molestiae a architecto odit nisi nostrum voluptatum.</p>
+                <button class="btn2"><a href="#" class="link">Learn More</a></button>
+            </div>
+        </div>
+
+</div>
+
+<section class="icons-container">
+    <div class="icons">
+        <img src="pics/fast-delivery_6463881.png" alt="delivery">
+        <div class="info">
+            <h4>Free Delivery</h4>
+            <span>On all orders</span>
+        </div>
+
+        <img src="pics/credit-card_6463809.png" alt="delivery">
+        <div class="info">
+            <h4>10 Day Returns</h4>
+            <span>Moneyback guarantee</span>
+        </div>
+
+        <img src="pics/gift-box_8816350.png" alt="delivery">
+        <div class="info">
+            <h4>Offers & Gifts</h4>
+            <span>On all orders</span>
+        </div>
+    </div>
+</section>
+
+
+<section class="products" id="products">
+
+    <h3>Recent Products</h3>
+
+    <div class="all-products">
+        <div class="product">
+            <img src="pics/f1.jpg" alt="">
+            <div class="product-info">
+                <h4 class="product-title">Rose Radiance</h4>
+                <p class="product-price">119.99$</p>
+                <a class="product-btn" href="#">Order Now</a>
+
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="pics/f2.jpg" alt="">
+            <div class="product-info">
+                <h4 class="product-title">Rosy Reverie</h4>
+                <p class="product-price">109.99$</p>
+                <a class="product-btn" href="#">Order Now</a>
+
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="pics/f3.jpg" alt="">
+            <div class="product-info">
+                <h4 class="product-title">Blooming Roses</h4>
+                <p class="product-price">99.99$</p>
+                <a class="product-btn" href="#">Order Now</a>
+
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="pics/f4.jpg" alt="">
+            <div class="product-info">
+                <h4 class="product-title">Rose Symphony</h4>
+                <p class="product-price">149.99$</p>
+                <a class="product-btn" href="#">Order Now</a>
+
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="pics/f5.jpg" alt="">
+            <div class="product-info">
+                <h4 class="product-title">Petal Paradise</h4>
+                <p class="product-price">119.99$</p>
+                <a class="product-btn" href="#">Order Now</a>
+
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="pics/f6.jpg" alt="">
+            <div class="product-info">
+                <h4 class="product-title">Scarlet Serenade</h4>
+                <p class="product-price">179.99$</p>
+                <a class="product-btn" href="#">Order Now</a>
+
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="pics/f7.jpg" alt="">
+            <div class="product-info">
+                <h4 class="product-title">Crimson Charm</h4>
+                <p class="product-price">89.99$</p>
+                <a class="product-btn" href="#">Order Now</a>
+
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="pics/f8.jpg" alt="">
+            <div class="product-info">
+                <h4 class="product-title">Velvet Blossoms</h4>
+                <p class="product-price">109.99$</p>
+                <a class="product-btn" href="#">Order Now</a>
+
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="pics/f9.jpg" alt="">
+            <div class="product-info">
+                <h4 class="product-title">Bloom Bust</h4>
+                <p class="product-price">99.99$</p>
+                <a class="product-btn" href="#">Order Now</a>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+   
+</section>
+
+
+
+<section class="review" id="review">
+    <h2 class="heading">Customer's <span>Review</span></h2>
+
+    <div class="box-conta">
+        <div class="box2">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ea nesciunt vel velit facilis placeat eaque nam expedita
+                commodi necessitatibus repudiandae eveniet dicta pariatur
+                dolorem accusamus, blanditiis ut rerum atque consequuntur?</p>
+                <div class="user">
+                    <img src="pics/user-avatar-filled.svg" alt="">
+                    <div class="use">
+                        <h3>Lua Gud</h3>
+                        <span>Happy Customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+
+
+        </div>
+
+        <div class="box2">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ea nesciunt vel velit facilis placeat eaque nam expedita
+                commodi necessitatibus repudiandae eveniet dicta pariatur
+                dolorem accusamus, blanditiis ut rerum atque consequuntur?</p>
+                <div class="user">
+                    <img src="pics/user-avatar-filled.svg" alt="">
+                    <div class="use">
+                        <h3>Lou Miller</h3>
+                        <span>Happy Customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+
+
+        </div>
+
+        <div class="box2">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ea nesciunt vel velit facilis placeat eaque nam expedita
+                commodi necessitatibus repudiandae eveniet dicta pariatur
+                dolorem accusamus, blanditiis ut rerum atque consequuntur?</p>
+                <div class="user">
+                    <img src="pics/user-avatar-filled.svg" alt="">
+                    <div class="use">
+                        <h3>Elena Aka</h3>
+                        <span>Happy Customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+
+
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2 class="heading3">Contact <span>Us</span></h2>
+
+    <div class="row2">
+        <form action="">
+            <input type="text" placeholder="Name" class="fbox">
+            <input type="email" placeholder="Email" class="fbox">
+            <input type="number" placeholder="Number" class="fbox">
+            <textarea name="" class="fbox" placeholder="Message" cols="30" rows="10" id=""></textarea>
+            <input type="submit" value="Send Message" class="btn3">
+        </form>
+
+        <div class="fimage">
+            <img src="pics/pngtree-flower-shop-vector-png-image_7013117.png" alt="">
+        </div>
+    </div>
+</section>
+
+<section class="footer" id="footer">
+    <div class="footer-container">
+        <div class="foot">
+            <h3>Quick Links</h3>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Products</a>
+            <a href="#">Review</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div class="foot">
+            <h3>Extra Links</h3>
+            <a href="#">My Account</a>
+            <a href="#">My Orders</a>
+            <a href="#">Favorites</a>
+        </div>
+
+        <div class="foot">
+            <h3>Locations</h3>
+            <a href="#">Tbilisi</a>
+            <a href="#">Rome</a>
+            <a href="#">Sicily</a>
+            <a href="#">Georgia</a>
+            <a href="#">Athens</a>
+        </div>
+
+        <div class="foot">
+            <h3>Contact Info</h3>
+            <a href="#">+995 574 123 123</a>
+            <a href="#">example@gmail.com</a>
+            <a href="#">Tbilisi, Georgia</a>
+            <img src="pics/Logos-01.png" alt="">
+
+        </div>
+    </div>
+    <div class="credit">Created by <span>Liz</span> | All Rights Reserved</div>
+
+
+</section>
+
+
+
+    
+
+
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function closeSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+</html>
